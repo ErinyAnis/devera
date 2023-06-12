@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devera</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="select plugin/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav-bar -->
+    <header class="w-100 position-absolute">
+            <div class="dropdowns position-relative d-flex justify-content-end">
+                <select class="select">
+                    <option data-display="language">language</option>
+                    <option value="1">English</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                    <option value="4">German</option>
+                </select>
+
+                <select class="select select-country" data-flag="true" >
+                    <option data-display="Country">Country</option>
+                    <option value="US">US</option>
+                    <option value="mercedes">UK</option>
+                    <option value="audi">EG</option>
+                </select>
+            </div>
+
+            <nav class="navbar navbar-expand-lg sticky">
+                <div class="container-fluid align">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                    <button class="navbar-toggler mx-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: #CEA17F;"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills nav-justified">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#about">Action</a></li>
+                                <li><a class="dropdown-item" href="#about">Another action</a></li>
+                                <li><a class="dropdown-item" href="#about">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#Communities">Communities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Properties">Properties</a>
+                            </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Media center" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Media center
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Careers">Careers</a>
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+
+    </header>
+    
+    <!-- home sec -->
+    <section id="home" class="home"> 
+        <div class="">
+            <div class="owl-carousel owl-theme">
+                <div class="slide slide-1">
+                    <div class="text-box">
+                <h1>LOREM IPSUM DOLOR SIT AMET</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra Maecenas accumsan lacus vel facilisis.</p>
+                <a href="#" class="btn main-button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+            </div>
+            <ul class="position-absolute social d-flex justify-content-center align-items-center flex-column">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-comment-dots"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>    
+                </div>
+                <div class="slide slide-2">
+                    <div class="container slide-content">
+                        <h2>slide two</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci corrupti quibusdam ipsum quis illo repudiandae ab iusto et cumque.</p>
+                        <a href=""><button class="btn main-button">see more</button></a>
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="container slide-content">
+                        <h2>slide thre</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci corrupti quibusdam ipsum quis illo repudiandae ab iusto et cumque.</p>
+                        <a href=""><button class="btn main-button">see more</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about sec-p">
+        <div class="container min-vh-100 mt-3">
+            <div>
+                <div class="row flex-column flex-lg-row align-items-center">
+                    <div class="col col-md-6 image position-relative mb-5">
+                        <img src="images/abu-dhabi-seascape-with-skyscrapers.png" alt="">
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="text-box">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <ul class="position-relative">
+                                <li>Lorem ipsum dolor sit amet,consectetur</li>
+                                <li>Lorem ipsum dolor sit amet,consectetur</li>
+                                <li>Lorem ipsum dolor sit amet,consectetur</li>
+                            </ul>
+                            <div class="more-info">
+                                <a href="#" class="btn button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="counter-up mt-5">
+                <div class="content row text-center w-100 d-flex align-items-center justify-content-between">
+                    <div class="box col-md-6 col-lg-3">
+                        <div><img src="images/Projects.png" alt=""></div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="counter">57</div>
+                            <div class="plus"> +</div>
+                        </div>
+                        <div class="text">Projects completed</div>
+                    </div>
+
+                    <div class="box col-md-6 col-lg-3">
+                        <div><img src="images/Clients.png" alt=""></div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="counter">76</div>
+                            <div class="plus"> +</div>
+                        </div>
+                        <div class="text">Happy Clients</div>
+                    </div>
+
+                    <div class="box col-md-6 col-lg-3">
+                        <div><img src="images/Teams.png" alt=""></div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="counter">18</div>
+                            <div class="plus"> +</div>
+                        </div>
+                        <div class="text">Successful Team</div>
+                    </div>
+
+                    <div class="box col-md-6 col-lg-3">
+                        <div><img src="images/Branches.png" alt=""></div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="counter">83</div>
+                            <div class="plus"> +</div>
+                        </div>
+                        <div class="text">Our Branches</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- our projects -->
+    <section class="our-projects min-vh-100 sec-p">
+        <div class="container">
+            <div class="text-box">
+                <h2>OUR PROJECTS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+            <div class="row justify-content-center mt-5 box-container">
+                <div class="col-md-4 box">
+                    <img class="card-img" src="images/1.png" alt="">
+                    <div class="intro">
+                        <h3>Lorem ipsum dolor sit amet,</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="img-holder">
+                            <a href="#" class="btn main-button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 box">
+                    <img class="card-img" src="images/1.png" alt="">
+                    <div class="intro">
+                        <h3>Lorem ipsum dolor sit amet,</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="img-holder">
+                            <a href="#" class="btn main-button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 box">
+                    <img class="card-img" src="images/1.png" alt="">
+                    <div class="intro">
+                        <h3>Lorem ipsum dolor sit amet,</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <div class="img-holder">
+                            <a href="#" class="btn main-button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- parteners and client section -->
+    <section class="parteners min-vh-100 sec-p">
+        <div class="container">
+            <h2>PARTNERS AND CLIENTS</h2>
+            <div class="cards">
+                <div class="row mx-auto">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/abu-dhabi-seascape-with-skyscrapers.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                                <a href="#" class="btn button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/abu-dhabi-seascape-with-skyscrapers.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                                <a href="#" class="btn button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/abu-dhabi-seascape-with-skyscrapers.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor sit</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                                <a href="#" class="btn button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-container">
+                <h3 class="first">invest with iman</h3>
+                <div class="second">high return on investments</div>
+                <p>We are proud to reveal that each of our projects has given higher ROI compared to other projects in the same area. ‘Hot location, sturdy construction and high end finishes’ is the secret to a continuous increase in the worth of our projects.</p>
+                <a href="#" class="btn button"><i class="fa-regular fa-eye"></i> MORE INFO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- our properties -->
+    <div class="our-prop sec-p">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 high-pr">
+                    <div class="text-box">
+                        <h2>DISCOVER OUR PROPERTIES</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="label">Country</div>
+                                <div class="select">
+                                    <select name="Country">
+                                        <option value="Egypt">Egypt</option>
+                                        <option value="US">US</option>
+                                        <option value="UK">UK</option>
+                                        <option value="brazil">brazil</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="label">Property Type</div>
+                                <div class="select">
+                                    <select name="Country">
+                                        <option value="Egypt">juucg</option>
+                                        <option value="US">klmln</option>
+                                        <option value="UK">hck</option>
+                                        <option value="brazil">gftdg</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="label">Price Range</div>
+                                <div class="select">
+                                    <select name="Country">
+                                        <option value="Egypt">100 $</option>
+                                        <option value="US">200 $</option>
+                                        <option value="UK">350 $</option>
+                                        <option value="brazil">400 $</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <a href="#" class="btn main-button">Filter</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 image"><img src="images/flatiron-building-new-york-city.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- our properties -->
+    <section class="our-properties sec-p">
+        <div class="container mb-md-5">
+            <h2>Our Properties</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-holder img-mobile">
+                        <a href="">
+                            <img src="images/abu-dhabi-seascape-with-skyscrapers.png" alt="">
+                            <div class="overlay">
+                                <h3>Lorem ipsum dolor sit</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="img-holder">
+                                <a href=""><img src="images/abu-dhabi-seascape-with-skyscrapers.png" alt="">
+                                    <div class="overlay">
+                                        <h3 class="size">Lorem ipsum dolor sit</h3>
+                                    </div>
+                                </a>
+                            </div> 
+                        </div>
+
+                        <div class="col-6">
+                            <div class="img-holder">
+                                <a href=""><img src="images/abu-dhabi-seascape-with-skyscrapers.png" alt="">
+                                    <div class="overlay">
+                                        <h3 class="size">Lorem ipsum dolor sit</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-holder img1">
+                        <a href=""><img src="images/abu-dhabi-seascape-with-skyscrapers.png" alt="">
+                            <div class="overlay">
+                                <h3>Lorem ipsum dolor sit</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer sec-p">
+        <div class="container">
+            <div class="row links mt-3 mb-3">
+                <div class="col-6 col-lg-3">
+                    <h3>CORPORATE</h3>
+                    <ul>
+                        <li><a href="">About Ellington Properties</a></li>
+                        <li><a href="">Invest in Ellington Properties</a></li>
+                        <li><a href="">Become An Agent</a></li>
+                        <li><a href="">Careers at Ellington Properties</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h3>OUR PROJECTS</h3>
+                    <ul>
+                        <li><a href="">Jumeirah Village Circle</a></li>
+                        <li><a href="">Mohamed Bin Rashid City</a></li>
+                        <li><a href="">Downtown Dubai</a></li>
+                        <li><a href="">Palm Jumeirah</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h3>HELP & SUPPORT</h3>
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Legal Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h3>OFFICE ADDRESS</h3>
+                    <ul>
+                        <li><a href="">16th floor, Burlington Tower,</a></li>
+                        <li><a href="">Business Bay, Dubai, UAE,</a></li>
+                        <li><a href="">Toll Free: + 971 800 8288</a></li>
+                    </ul>
+                </div>
+                <div class="social-icons text-center">
+                    <ul class="social d-flex justify-content-center align-items-center ">
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-comment-dots"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul> 
+                    <div class="line"></div>
+                    <p>Copyright © 2022 Devera Development. All Rights Reserved.</p>
+                </div>
+                <div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="select plugin/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="jquery.js"></script>
+
+</body>
+</html>
